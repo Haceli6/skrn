@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul li a{
+    padding: 0 20px;
+    color: rgb(27, 11, 167);
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 600;
+}
+ 
+ul li a.active-link::after {
+    width: 100%;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+
+  ul li a:hover::after {
+    width: 100%;
+  }
+
+  
